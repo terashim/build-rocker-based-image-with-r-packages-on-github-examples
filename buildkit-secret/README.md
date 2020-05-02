@@ -9,7 +9,6 @@ Buildkit の `RUN --mount=type=secret` を使う方法
 - [`.env.example`](./.env.example) ファイルをファイル名 `.env` としてコピーする
 - `.env` ファイルに Personal Access Token の値を書き込む
 - [`Dockerfile`](./Dockerfile) ファイルの中の `username/pkgname` をインストールしたいRパッケージのGitHubリポジトリ名に書き換える（例: [`tidyverse/tidyr`](https://github.com/tidyverse/tidyr) など）
-[`tidyverse/tidyr`](https://github.com/tidyverse/tidyr) など）
 
 ### ビルドの実行
 
